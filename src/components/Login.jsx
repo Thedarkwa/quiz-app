@@ -12,7 +12,7 @@ export default function Login({ onLogin }) {
       return;
     }
 
-    // fake validation (you can replace later with backend auth)
+    
     if (password === "1234") {
       onLogin(name);
     } else {

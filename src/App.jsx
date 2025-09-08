@@ -47,7 +47,7 @@ export default function App() {
       bg-black/30 backdrop-blur-md border border-white/10">
         
         {!user ? (
-          // ✅ Login Form
+          //  Login Form
           <form onSubmit={handleLogin} className="flex flex-col gap-4">
             <h1 className="text-4xl font-bold text-center text-teal-300">Quiz App</h1>
             <p className="text-center text-gray-300 mb-2">
